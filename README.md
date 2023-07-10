@@ -1,2 +1,2 @@
 # quangtlenetlify
-Netlify Website
+Personal website ran by Netlify
