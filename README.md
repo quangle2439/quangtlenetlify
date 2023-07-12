@@ -1,3 +1,3 @@
 # quangtlenetlify
 Personal website ran by Netlify
-quangtle.netfliy.app
+"[quangtle.netfliy.app]" (https://quangtle.netlify.app/)
