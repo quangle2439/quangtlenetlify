@@ -9,30 +9,31 @@
   </head>
 
   <body>
+    <!-- Navigation Bar -->
     <div class="navigation-bar">
       <a href="#home" class = "active">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
-    <p> Welcome to my website! I hope you enjoy your stay here. </p>
+    <p id="home"> Welcome to my website! I hope you enjoy your stay here. </p>
     <div class="slideshow-container">
 
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A1367.jpg?raw=true" style="width:100%">
+      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A1367.jpg?raw=true", style="width:100%", id="S2A1367">
       <div class="text">Caption Text</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A3236.jpg?raw=true" style="width:100%">
+      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A3236.jpg?raw=true", style="width:100%", id="S2A3236">
       <div class="text">Caption Two</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A1296.jpg?raw=true" style="width:100%">
+      <img src="https://github.com/quangle2439/quangtlenetlify/blob/main/_S2A1296.jpg?raw=true", style="width:100%", id="S2A1296">
       <div class="text">Caption Three</div>
     </div>
     
@@ -76,36 +77,54 @@
         dots[slideIndex-1].className += " active";
       }
     </script>
+    <br>
 
-    <h1 class="headers", id="about">About</h1>
-      <div class="portrait">
-        <img 
-          src="https://github.com/quangle2439/quangtlenetlify/blob/main/IMG_1089.JPG?raw=true"
-          height= 500px
-          width=auto
-        >
-      </div>
-      <p class="paragraphs", id="aboutparagraph"> 
-          Hi there! My name <b>Quang T. Le</b>, a recent graduate from the <b>University of California, Davis</b> 
+    <!-- About Section -->
+    <h1 class="headers", id="about-header">About</h1>
+    <div id="about-box">
+      <img 
+        src="https://github.com/quangle2439/quangtlenetlify/blob/main/IMG_1089.JPG?raw=true"
+        height=400px
+        width=auto
+        id="about-portrait"
+      >
+      <div id="about-text">
+        <p id="about-paragraph"> 
+          Hi there! My name is <b>Quang Thien Le</b>, a recent graduate from the <b>University of California, Davis</b> 
           with a B.S. in Chemical Engineering. I created this website as apart of my portifolio and hope you enjoy your stay here!
-      </p>
+        </p>
+      </div>
+    </div>
+    <br>
+
+    <!-- Projects Section-->
     <h1 class="headers", id="projects">Projects</h1>
+      <div>
+
+      </div>
+    <br>
+
+    <!-- Contacts Section -->
     <h1 class="headers", id="contact">Contact</h1>
-      <p>
+
+    <div class="footer">
+      <h2>Footer</h2>
+      <div>
         <a class ="button", id="linkedin", href="https://www.linkedin.com/in/quang-t-le/">
           <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LinkedIn_2021.svg/1920px-LinkedIn_2021.svg.png"
-            width = 150px
+            src="https://github.com/quangle2439/quangtlenetlify/blob/main/480px-LinkedIn_logo_initials.png?raw=true"
+            width = 30px
             height = auto
-            >
+          >
         </a>
         <a class="button", id="gmail", href="mailto: quangle2439@gmail.com">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/100px-Gmail_icon_%282020%29.svg.png"
-            width = 50px
+            src="https://github.com/quangle2439/quangtlenetlify/blob/main/gmail.png?raw=true"
+            width = 30px
             height = auto
-            >
+          >
         </a>
-      </p>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
